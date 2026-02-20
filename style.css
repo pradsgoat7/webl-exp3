@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.4s ease;
+}
+
+.default-bg {
+    background-color: #fdf6f0;
+}
+
+.blue-bg {
+    background-color: #d6e2e9;
+}
+
+.green-bg {
+    background-color: #e2f0cb;
+}
+
+.orange-bg {
+    background-color: #ffdac1;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Banner */
+.banner {
+    background-color: #d6e2e9;
+    padding: 30px 0;
+    text-align: center;
+    letter-spacing: 2px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.mainInformation {
+    text-align: center;
+    margin: 20px 0;
+    font-style: italic;
+    color: #555;
+}
+
+.imgDescription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+
+.image1 {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.description {
+    flex: 1;
+    min-width: 300px;
+    font-size: 1.2rem;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.hobbies {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.section-title {
+    color: #6d8299;
+    border-left: 5px solid #6d8299;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #e0e0e0;
+    margin: 40px 0;
+}
+
+.personalInfo {
+    margin-top: 50px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: #6d8299;
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #55667a;
+}
+
+.experiment-section {
+    padding: 20px 0;
+}
+
+.exp-box {
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.btn-sm {
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    background-color: #6d8299;
+    color: white;
+    cursor: pointer;
+}
+
+.exp-box p {
+    margin-top: 10px;
+}
+
+.btn-danger {
+    background-color: #e5989b;
+}
+
+.btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#dynamic-list {
+    margin: 15px 20px;
+}

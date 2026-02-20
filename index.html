@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pradnyesh | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/profileImg.avif" type="image/x-icon">
+</head>
+
+<body class="default-bg">
+
+<header class="banner">
+    <h1>Portfolio</h1>
+</header>
+
+<div class="container">
+
+    <div class="mainInformation">
+        <h4>Pradnyesh Patil</h4>
+        <h4>Student and Aspiring Developer</h4>
+    </div>
+
+    <section class="imgDescription">
+        <img class="image1" src="./images/img2.png" alt="Pradnyesh Patil">
+        <div class="description">
+            <p>"Building simple solutions for complex problems. Focused on code, clarity, and continuous improvement."</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <div class="content-grid">
+        <div class="hobbies">
+            <h2 class="section-title">Hobbies</h2>
+            <p>I enjoy exploring creative outlets like reading, music, and experimenting with new skills.</p>
+        </div>
+
+        <div class="hobbies">
+            <h2 class="section-title">Passion</h2>
+            <p>I’m passionate about continuous growth and turning ideas into meaningful digital reality.</p>
+        </div>
+
+        <div class="hobbies">
+            <h2 class="section-title">Past Work</h2>
+            <p>Experienced in teamwork projects and deadline management.</p>
+        </div>
+
+        <div class="hobbies">
+            <h2 class="section-title">Social Life</h2>
+            <p>I value meaningful connections and diverse conversations.</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="experiment-section">
+        <h2 class="section-title">DOM Manipulation Experiments</h2>
+
+        <div class="exp-box">
+            <h3>Change Text</h3>
+            <p id="text-to-change">This is the original text of the paragraph.</p>
+            <button class="btn-sm" onclick="changeText()">Change Text</button>
+        </div>
+
+        <div class="exp-box">
+            <h3>Dynamic List</h3>
+            <ul id="dynamic-list">
+                <li>Initial Item 1</li>
+            </ul>
+
+            <div class="btn-group">
+                <button class="btn-sm" onclick="addItem()">Add Item</button>
+                <button class="btn-sm btn-danger" onclick="removeItem()">Remove Last Item</button>
+            </div>
+        </div>
+
+        <div class="exp-box">
+            <h3>Change Background Color</h3>
+
+            <div class="btn-group">
+                <button class="btn-sm" onclick="setTheme('blue')">Pastel Blue</button>
+                <button class="btn-sm" onclick="setTheme('green')">Pastel Green</button>
+                <button class="btn-sm" onclick="setTheme('orange')">Pastel Orange</button>
+                <button class="btn-sm" onclick="setTheme('default')">Default</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="personalInfo">
+        <a href="#" class="btn">Instagram</a>
+        <a href="#" class="btn">LinkedIn</a>
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
